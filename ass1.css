@@ -1,0 +1,84 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.container > body {
+    padding: 0px;
+    margin: 0px;
+
+}
+.container > header {
+    background-image: url('281244747_597829274590390_3822371192459035826_n.png');
+    background-size: 100% 100% ;
+    height: 0px;
+    padding-bottom: 25%;
+
+
+}
+.menu>ul{
+    list-style: none;
+    padding: 0px ;
+    margin: 0px;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+    
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 0 20px;
+    line-height: 40px;
+    
+}
+.anh{
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    left: 50px;
+    top: 4px;
+}
+
+.container > article {
+    min-height: 400px;
+    width: 75%;
+    background-color:antiquewhite;
+    float: left;
+    color: black;
+}
+.container > aside {
+    min-height: 745px;
+    width: 25%;
+    float: right;
+    background-color: whitesmoke;
+}
+.vmenu>ul>li {
+    position: relative;
+    display: inline-block;
+}
+.vmenu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: black;
+    padding: 0 10px;
+    line-height: 50px;
+}
+.vmenu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.vmenu>ul>li>a:hover {
+    background-color: orangered;
+}
+
+
+
